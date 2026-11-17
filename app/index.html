@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A fast, read-only make.fun frontend: live bounty board, bounty pages, leaderboards and public profiles.">
+<title>make.fun board — live bounties, pots and leaderboards</title>
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="top">
+<a class="brand" href="#/">make<span>.fun</span> board</a>
+<nav><a href="#/">Board</a><a href="#/u/alpaca">Profile: @alpaca</a></nav>
+<p class="tag">Live pots · entry fees · time left · leaderboards — read-only, no sign-in</p>
+</header>
+<div id="shell">
+<section id="board" aria-label="Live bounties"><p class="loading">Loading live bounties…</p></section>
+<section id="view" aria-label="Detail"></section>
+</div>
+<footer><p>Unofficial read-only client. Data: <a href="https://make.fun/api">make.fun public API</a> · <a href="#/">All bounties</a></p></footer>
+</body>
+</html>
